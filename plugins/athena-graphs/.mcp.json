@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "athena-graphs": {
+      "command": "python3",
+      "args": [
+        "-c",
+        "import os, subprocess; root = os.getenv('CLAUDE_PLUGIN_ROOT') or os.getenv('PLUGIN_ROOT') or os.getcwd(); raise SystemExit(subprocess.call(['uv', 'run', '--directory', root, '--extra', 'mcp', 'agentgraph-mcp']))"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "athena-graphs",
+  "displayName": "Athena Graphs",
+  "version": "0.1.0",
+  "description": "Run complex work as explicit, inspectable agent graphs with branching, joins, review gates, and human checkpoints.",
+  "author": {
+    "name": "luckeyfaraday",
+    "url": "https://github.com/luckeyfaraday"
+  },
+  "homepage": "https://github.com/luckeyfaraday/athena-graphs",
+  "repository": "https://github.com/luckeyfaraday/athena-graphs",
+  "license": "MIT",
+  "keywords": ["agents", "graphs", "orchestration", "mcp", "skills"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

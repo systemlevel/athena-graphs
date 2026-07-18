@@ -1,0 +1,29 @@
+{
+  "name": "athena-graphs",
+  "version": "0.1.0",
+  "description": "Run complex work as explicit, inspectable agent graphs with branching, joins, review gates, and human checkpoints.",
+  "author": {
+    "name": "luckeyfaraday",
+    "url": "https://github.com/luckeyfaraday"
+  },
+  "homepage": "https://github.com/luckeyfaraday/athena-graphs",
+  "repository": "https://github.com/luckeyfaraday/athena-graphs",
+  "license": "MIT",
+  "keywords": ["agents", "graphs", "orchestration", "mcp", "skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Athena Graphs",
+    "shortDescription": "Inspectable graph orchestration for AI agents",
+    "longDescription": "Turn a natural-language goal into a durable graph of specialized agent nodes. Branch independent work, join results, loop through review, pause for human input, and monitor every step without managing a CLI.",
+    "developerName": "luckeyfaraday",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/luckeyfaraday/athena-graphs",
+    "defaultPrompt": [
+      "Use Athena Graphs to implement this task",
+      "Graph this work and pause before final approval",
+      "Run this with parallel research and a review gate"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

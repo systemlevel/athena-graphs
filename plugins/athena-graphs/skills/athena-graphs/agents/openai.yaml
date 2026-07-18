@@ -1,0 +1,4 @@
+interface:
+  display_name: "Athena Graphs"
+  short_description: "Orchestrate complex work as agent graphs"
+  default_prompt: "Use $athena-graphs to execute this task as an inspectable agent graph."

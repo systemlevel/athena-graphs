@@ -1,0 +1,22 @@
+{
+  "name": "athena-graphs",
+  "owner": {
+    "name": "luckeyfaraday"
+  },
+  "description": "Agent-native graph orchestration for Claude Code and other skill-compatible agents.",
+  "plugins": [
+    {
+      "name": "athena-graphs",
+      "source": "./plugins/athena-graphs",
+      "description": "Run complex work as explicit, inspectable agent graphs.",
+      "author": {
+        "name": "luckeyfaraday"
+      },
+      "homepage": "https://github.com/luckeyfaraday/athena-graphs",
+      "repository": "https://github.com/luckeyfaraday/athena-graphs",
+      "license": "MIT",
+      "category": "development",
+      "tags": ["agents", "orchestration", "mcp", "skills"]
+    }
+  ]
+}

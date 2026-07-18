@@ -1,0 +1,20 @@
+{
+  "name": "athena-graphs",
+  "interface": {
+    "displayName": "Athena Graphs"
+  },
+  "plugins": [
+    {
+      "name": "athena-graphs",
+      "source": {
+        "source": "local",
+        "path": "./plugins/athena-graphs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
